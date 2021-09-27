@@ -11,4 +11,4 @@ if len(str1)!=len(str2):
     print("Two Strings Not Equal")
 else:
     for i in range(len(str1)):
-        print(str1[i],str2[i],end=" ")
+        print(str1[i],str2[i],end="")
