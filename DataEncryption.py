@@ -2,9 +2,11 @@ plaintext=input("Enter one-word ,Lower case Message:")
 distance=int(input("Enter Distance:"))
 for ch in plaintext:
     ciphervalue=ord(ch)+distance
+    print(chr(ciphervalue))
     if ciphervalue > ord('z'):
         ciphervalue=ord('a')+distance-1
-print(chr(ciphervalue))
+        print(chr(ciphervalue))
+
 """
 ASCII values      97 98 99 100 101 
 Plaintext         a  b   c  d   e
